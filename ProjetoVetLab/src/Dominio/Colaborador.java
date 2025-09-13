@@ -20,4 +20,10 @@ public class Colaborador extends AbsPessoaFisica{
     public Colaborador(){
         super();
     }
+
+    public Colaborador(String nome, double salario, String matricula){
+        this.nome = nome;
+        this.salario = salario;
+        this.matricula = matricula;
+    }
 }
